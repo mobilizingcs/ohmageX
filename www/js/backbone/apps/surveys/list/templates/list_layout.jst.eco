@@ -5,3 +5,9 @@
 </header>
 <h3 class="hide-accessible"><%= @name %> Saved <%= @dictionary('pages','survey') %></h3>
 <div id="list-region"></div>
+<div class="text-container">
+  <p>Missing a <%= @dictionary('page','survey') %>?
+     Download more from the 
+     <a href='#' id="campaign-link"><%= @dictionary('pages','campaign') %></a> page.
+  </p>
+</div>

@@ -75,6 +75,12 @@
       infobuttonRegion: "#infobutton-region"
       selectorRegion: "#selector-region"
       listRegion: "#list-region"
+    events: ->
+     "click #campaign-link": "campaignLinkClicked"
     serializeData: ->
       data = @collection.findWhere(chosen: true).toJSON()
       data
+    campaignLinkClicked: (e) ->
+      e.preventDefault()
+      console.log('link clicked')
+      App.navigate "campaigns", { trigger: true }
