@@ -3,6 +3,7 @@
   "version": "3.0.3",
   "dependencies": {
     "WebBlocks-block-visibility": "WebBlocks/block-visibility",
-    "WebBlocks-wrapper-normalize.csss": "WebBlocks/wrapper-normalize.css"
+    "WebBlocks-wrapper-normalize.csss": "WebBlocks/wrapper-normalize.css#0edb2c7adc65d9716a1086362e07ca7f7a0aaa2b"
+
   }
 }
